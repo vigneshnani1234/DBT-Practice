@@ -1,0 +1,15 @@
+
+target/
+dbt_packages/
+logs/
+dbt_internal_packages/
+
+
+
+# # secrets
+# profiles.yml
+# .env
+
+# # OS
+# .DS_Store
+

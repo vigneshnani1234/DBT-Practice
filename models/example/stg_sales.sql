@@ -1,0 +1,1 @@
+select county_number from {{ source('liqour_sales', 'sales') }}

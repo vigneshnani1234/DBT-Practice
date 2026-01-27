@@ -1,0 +1,9 @@
+version: 2
+sources:
+ - name: liqour_sales
+   database: bigquery-public-data
+   schema: iowa_liquor_sales
+   description: "Replica of the Postgres database used by our app"
+   tables:
+     - name: sales
+      
