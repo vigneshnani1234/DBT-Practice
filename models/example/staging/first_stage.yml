@@ -1,0 +1,9 @@
+version: 2
+models:
+  - name: first_stage
+    columns:
+      - name: product_id
+        tests:
+         - not_null
+         - unique
+

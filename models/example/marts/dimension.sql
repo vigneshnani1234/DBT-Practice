@@ -1,0 +1,1 @@
+select product_id,lenght from {{ ref('first_stage') }}
